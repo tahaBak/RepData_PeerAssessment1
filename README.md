@@ -43,7 +43,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there
 are a total of 17,568 observations in this
 dataset.
 
-
+** the dataset is supposed to be extracted in working directory of the Script
 ## Assignment
 
 This assignment will be described in multiple parts. You will need to
