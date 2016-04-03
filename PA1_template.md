@@ -173,6 +173,7 @@ hist(avgStepsBis$x,main="histogram of total steps by NA using averages",xlab="to
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)
 
+#### we can see that we have more data near to the mean day : which is normal because all NA values were replaced by mean values
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -194,6 +195,6 @@ plot(x=resMeanWeekIn$Group.1, y=resMeanWeekIn$x,type="l",main="weekdays steps" ,
 ![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)
 
 ##### We can see clearly that we have more activity in the day during  weekend than in weekdays (may be the subjects are sitting at work during weekdays) 
-#####
+
 
 

@@ -81,6 +81,7 @@ avgStepsBis<-aggregate(myDataBis$steps, by=list(myDataBis$date), sum ,na.rm=TRUE
 hist(avgStepsBis$x,main="histogram of total steps by NA using averages",xlab="total steps in a day",col=clr)
 ```
 
+#### we can see that we have more data near to the mean day : which is normal because all NA values were replaced by mean values
 
 ## Are there differences in activity patterns between weekdays and weekends?
 ```{r echo=TRUE}
@@ -99,6 +100,6 @@ plot(x=resMeanWeekIn$Group.1, y=resMeanWeekIn$x,type="l",main="weekdays steps" ,
 ```
 
 ##### We can see clearly that we have more activity in the day during  weekend than in weekdays (may be the subjects are sitting at work during weekdays) 
-#####
+
 
 
